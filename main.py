@@ -3,7 +3,7 @@ import time
 import random
 import pyperclip
 
-person = ""
+person = "윤대호이"
 personList = person.split(", ")
 massage = "happynewyear!"
 
@@ -31,7 +31,6 @@ for i in range(len(personList)):
     pyautogui.click(760, 1119, clicks=2)
     pyautogui.keyDown("delete")
 print("모두에게 메세지 전송 완료")
-
 
 
 
